@@ -2,6 +2,9 @@
 
 A modern, customizable directory/blog template built with Next.js, MDX, and shadcn/ui. Perfect for creating content-driven websites, directories, portfolios, or blogs.
 
+## Quick Deploy w/ Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhuntsyea%2Fnextjs-directory-boilerplate&project-name=nextjs-boilerplate&repository-name=nextjs-boilerplate&skippable-integrations=1)
+
 ## Features
 
 - 📝 **MDX Support** - Write content using Markdown with JSX components
