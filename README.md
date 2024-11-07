@@ -48,19 +48,36 @@ A modern, customizable directory/blog template built with Next.js, MDX, and shad
 
 ```
 src/
-├── app/                   # Next.js app directory
-│   ├── content/          # Content page routes
-│   └── page.tsx          # Home page
-├── components/           # React components
-│   ├── layout/          # Layout components
-│   └── ui/              # UI components
-├── config/              # Site configuration
-│   └── directory.config.ts
-├── content/             # MDX content files
-├── lib/                 # Utility functions
-│   └── content.ts       # Content management
-└── types/               # TypeScript types
-    └── content.ts
+├── app/ # Next.js app directory
+│ ├── content/ # Content page routes
+│ ├── stories/ # Story page routes
+│ ├── tags/ # Tag page routes
+│ ├── layout.tsx # Root layout component
+│ ├── not-found.tsx # 404 page component
+│ └── page.tsx # Home page
+├── components/ # React components
+│ ├── layout/ # Layout components
+│ ├── ui/ # UI components
+│ ├── AudioPlayer.tsx # Audio player component
+│ ├── ErrorBoundary.tsx # Error boundary component
+│ ├── Navbar.tsx # Navbar component
+│ ├── Pagination.tsx # Pagination component
+│ ├── Search/ # Search components
+│ ├── Search.tsx # Search component
+│ ├── summaryCard.tsx # Summary card component
+│ └── TagFilter.tsx # Tag filter component
+├── config/ # Site configuration
+│ └── directory.config.ts
+├── content/ # MDX content files
+├── lib/ # Utility functions
+│ ├── content.ts # Content management
+│ ├── metadata.ts # Metadata generation
+│ ├── posts.ts # Post management
+│ └── utils.ts # Utility functions
+├── stories/ # MDX story files
+├── types/ # TypeScript types
+│ └── content.ts
+└── app/globals.css # Global styles
 ```
 
 ## Content Structure
