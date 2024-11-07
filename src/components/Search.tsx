@@ -1,12 +1,15 @@
 "use client";
 
+import dynamic from 'next/dynamic';
 import { useState } from 'react';
 import { Input } from './ui/input';
 import { ContentItem } from '@/types/content';
-import ContentGrid from './layout/ContentGrid';
 import TagFilter from './TagFilter';
 import Pagination from './Pagination';
 import { directoryConfig } from '@/config/directory.config';
+
+// Dynamically import the ContentGrid component
+const ContentGrid = dynamic(() => import('./layout/ContentGrid'));
 
 export default function Search({ items }: { items: ContentItem[] }) {
   const [searchResults, setSearchResults] = useState(items);

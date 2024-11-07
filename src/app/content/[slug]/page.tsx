@@ -1,7 +1,6 @@
 import { getAllContent, getContentBySlug } from '@/lib/content';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import Image from 'next/image';
-import { Card, CardContent } from '@/components/ui/card';
 import AudioPlayer from '@/components/AudioPlayer';
 
 export async function generateStaticParams() {
