@@ -1,0 +1,46 @@
+{
+  "name": "classical-virtues",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.14",
+    "@radix-ui/react-slider": "^1.2.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@vercel/blob": "^0.24.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.447.0",
+    "next": "14.2.14",
+    "next-mdx-remote": "^5.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "remark-frontmatter": "^5.0.0",
+    "remark-mdx": "^3.0.1",
+    "remark-mdx-frontmatter": "^5.0.0",
+    "remark-stringify": "^11.0.0",
+    "shadcn-ui": "^0.2.3",
+    "tailwind-merge": "^2.5.3",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.14",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5"
+  }
+}
